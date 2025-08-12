@@ -48,18 +48,18 @@ public final class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
-                "id=" + id +
-                ", codigoEan='" + codigoEan + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", preco=" + preco +
-                ", dataCadastro=" + dataCadastro +
-                ", dataUltimaAtualizacao=" + dataUltimaAtualizacao +
-                ", estoque=" + estoque +
-                ", categoria='" + categoria + '\'' +
-                ", urlFoto='" + urlFoto + '\'' +
+        return "Produto{" + '\n' +
+                "id=" + id + '\n' +
+                ", codigoEan='" + codigoEan + '\n' +
+                ", descricao='" + descricao + '\n' +
+                ", marca='" + marca + '\n' +
+                ", modelo='" + modelo + '\n' +
+                ", preco=" + preco + '\n' +
+                ", dataCadastro=" + dataCadastro + '\n' +
+                ", dataUltimaAtualizacao=" + dataUltimaAtualizacao + '\n' +
+                ", estoque=" + estoque + '\n' +
+                ", categoria='" + categoria + '\n' +
+                ", urlFoto='" + urlFoto + '\n' +
                 '}';
     }
 }
