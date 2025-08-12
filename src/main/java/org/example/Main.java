@@ -13,7 +13,7 @@ public class Main {
                 .codigoEan("1234567890123")
                 .modelo("X200")
                 .estoque(50)
-                .urlFoto("http://exemplo.com/x.jpg")
+                .urlFoto("http://exemplo.com/foto.jpg")
                 .dataUltimaAtualizacao(LocalDate.of(2025, 8, 12))
                 .build();
 
