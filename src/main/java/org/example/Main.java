@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println(p1);
 
-        // Teste dataUltimaAtualizacao anterior a dataCadastro (gera erro)
+        // Teste complementar com dataUltimaAtualizacao anterior a dataCadastro (irá gerar um erro)
         try {
             new ProdutoBuilder(2L, "Produto inválido", "Marca", 150.0,
                     LocalDate.of(2025, 8, 11), "Categoria")

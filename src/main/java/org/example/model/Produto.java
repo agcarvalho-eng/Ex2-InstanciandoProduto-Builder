@@ -3,8 +3,9 @@ package org.example.model;
 import java.time.LocalDate;
 
 /**
- * Representa um produto no sistema.
- * Use ProdutoBuilder para criar instâncias.
+ * Classe que representa um produto no sistema.
+ * Será utilizada a classe ProdutoBuilder para criar instâncias,
+ * haja vista a existência de atributos não obrigatórios.
  */
 public final class Produto {
     private final long id;
