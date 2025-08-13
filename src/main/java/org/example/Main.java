@@ -8,7 +8,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         // Produto válido com dataCadastro fornecida
-        Produto p1 = new ProdutoBuilder(1L, "Smartphone X", "BrandCo", 1999.99,
+        Produto p1 = new ProdutoBuilder(1L, "Smartphone X", "Samsung", 1999.99,
                 LocalDate.of(2025, 8, 11), "Eletrônicos")
                 .codigoEan("1234567890123")
                 .modelo("X200")
